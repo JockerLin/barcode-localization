@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 2.8)
+project(hello)
+find_package(OpenCV REQUIRED)
+
+set(CMAKE_CXX_STANDARD 11)
+message(STATUS "OpenCV library status:")
+message(STATUS "    version: ${OpenCV_VERSION}")
+message(STATUS "    libraries: ${OpenCV_LIBS}")
+message(STATUS "    include path: ${OpenCV_INCLUDE_DIRS}")
+
+include_directories(${OpenCV_INCLUDE_DIRS})
+#include_directories(/usr/local/include/opencv2)
+#include_directories(/usr/local/include/opencv)
+
+#add_executable(${PROJECT_NAME} test.cpp)
+#target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
+add_executable(main main.cpp)
+target_link_libraries(main ${OpenCV_LIBS})
+add_executable(test test.cpp)
+target_link_libraries(test ${OpenCV_LIBS})

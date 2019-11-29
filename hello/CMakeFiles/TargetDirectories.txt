@@ -1,0 +1,4 @@
+/home/pilcq/personal/PROJECT_CODE!/c_project/hello/CMakeFiles/rebuild_cache.dir
+/home/pilcq/personal/PROJECT_CODE!/c_project/hello/CMakeFiles/edit_cache.dir
+/home/pilcq/personal/PROJECT_CODE!/c_project/hello/CMakeFiles/main.dir
+/home/pilcq/personal/PROJECT_CODE!/c_project/hello/CMakeFiles/test.dir
