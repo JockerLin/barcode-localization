@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/barcode_localization.h
+vector
+-
+memory
+-
+opencv2/opencv.hpp
+-
+opencv2/core/core.hpp
+-
+opencv2/highgui.hpp
+-
+opencv2/line_descriptor/descriptor.hpp
+-
+
+/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/main.cpp
+iostream
+-
+barcode_localization.h
+/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/barcode_localization.h
+

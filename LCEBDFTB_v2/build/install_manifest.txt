@@ -1,0 +1,2 @@
+/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/lib/LCEBDFTB/libLCEBDFTB.so
+/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/include/LCEBDFTB/barcode_localization.h

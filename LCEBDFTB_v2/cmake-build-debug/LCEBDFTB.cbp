@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LCEBDFTB"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LCEBDFTB">
+				<Option output="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/libLCEBDFTB.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LCEBDFTB"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LCEBDFTB/fast">
+				<Option output="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/libLCEBDFTB.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LCEBDFTB/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="headers">
+				<Option working_dir="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 headers"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run">
+				<Option output="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 run"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run/fast">
+				<Option output="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 run/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/barcode_localization.cpp">
+			<Option target="LCEBDFTB"/>
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/barcode_localization.h">
+			<Option target="LCEBDFTB"/>
+			<Option target="headers"/>
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/include/LCEBDFTB/barcode_localization.h">
+			<Option target="headers"/>
+		</Unit>
+		<Unit filename="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/main.cpp">
+			<Option target="LCEBDFTB"/>
+			<Option target="run"/>
+		</Unit>
+		<Unit filename="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

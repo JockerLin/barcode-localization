@@ -1,0 +1,5 @@
+/snap/clion/97/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB
+--     include path: /usr/local/include;/usr/local/include/opencv
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pilcq/personal/PROJECT_CODE!/c_project/LCEBDFTB/cmake-build-debug
