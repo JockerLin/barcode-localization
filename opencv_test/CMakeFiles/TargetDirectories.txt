@@ -1,0 +1,3 @@
+/home/pilcq/person/ownproject/c_project/opencv_test/CMakeFiles/edit_cache.dir
+/home/pilcq/person/ownproject/c_project/opencv_test/CMakeFiles/rebuild_cache.dir
+/home/pilcq/person/ownproject/c_project/opencv_test/CMakeFiles/si.dir

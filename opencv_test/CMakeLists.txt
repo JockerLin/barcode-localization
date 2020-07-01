@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( si )
+find_package( OpenCV REQUIRED )
+add_executable( si changechannel.cpp )
+target_link_libraries( si ${OpenCV_LIBS} )

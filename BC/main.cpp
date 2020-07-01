@@ -8,7 +8,7 @@
 int main() {
     std::cout << "Hello, World!" << std::endl;
     cv::Mat image;
-    image = cv::imread("/home/pilcq/personal/PROJECT_CODE!/c_project/BC/messi.jpg");
+    image = cv::imread("../messi.jpg");
     namedWindow("Show image", cv::WINDOW_AUTOSIZE);
     imshow("Show image", image);
     cv::waitKey(0);
